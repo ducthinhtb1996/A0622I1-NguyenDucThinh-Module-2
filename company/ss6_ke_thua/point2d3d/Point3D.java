@@ -35,4 +35,11 @@ public class Point3D extends Point2D {
         setZ(z);
     }
 
+    @Override
+    public String toString() {
+        return "Point3D{" +
+                super.toString()+
+                "z=" + z +
+                '}';
+    }
 }
