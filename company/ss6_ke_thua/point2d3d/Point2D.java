@@ -1,4 +1,4 @@
-package company.ss6_ke_thua.bai_tap;
+package company.ss6_ke_thua.point2d3d;
 
 public class Point2D {
     private float x = 0.0f;
