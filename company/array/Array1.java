@@ -4,13 +4,12 @@ import java.util.Scanner;
 
 public class Array1 {
     public static void main(String[] args) {
-        int [] mang1 = new int[10];
-        Scanner sc = new Scanner(System.in);
-        for (int i = 0; i <mang1.length; i++) {
-            System.out.println("Nhập phần tử thứ " + i+1);
-            mang1[i] = sc.nextInt();
+        String [] cars = {"Volvo", "Toyota", "BMW", "Ferarri"};
+        for (int i = 0; i <cars.length; i++) {
+            if(cars[i] == "Volvo") {
+                System.out.println("Đã tìm thấy xe Volvo trong list ở vị trí " + i);
+            }
         }
-        System.out.println();
 
     }
 }

@@ -1,2 +1,6 @@
-package company.ss6_ke_thua.thuc_hanh;public interface LuyenVo {
+package company.ss6_ke_thua.thuc_hanh;
+
+public interface LuyenVo {
+    void dam();
+    void da();
 }

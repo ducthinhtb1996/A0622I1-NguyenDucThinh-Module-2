@@ -1,6 +1,6 @@
 package company.ss6_ke_thua.thuc_hanh;
 
-public class Student extends Person{
+public class Student extends Person implements dev,game{
     private String className;
     private String studentId;
 
@@ -13,5 +13,15 @@ public class Student extends Person{
         super(fullName, age, address);
         this.className = className;
         this.studentId = studentId;
+    }
+
+    @Override
+    public void coding() {
+        System.out.println(12345);
+    }
+
+    @Override
+    public void playGame() {
+
     }
 }
