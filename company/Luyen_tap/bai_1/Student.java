@@ -50,4 +50,7 @@ public class Student {
                 ", address='" + address + '\'' +
                 '}';
     }
+
+    public void showInfo() {
+    }
 }
