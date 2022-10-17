@@ -1,2 +1,5 @@
-package task.service;public interface EmployeeService {
+package task.service;
+
+public interface EmployeeService extends Service{
+
 }
